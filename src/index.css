@@ -1,0 +1,125 @@
+body{
+    max-height: 768px;
+    max-width: 317px;
+    font-family: 'Inter',sans-serif;
+}
+
+.bild{
+    display: flex;
+    justify-content: flex-start;
+    width: 317px;
+    height: 317px;
+}
+
+.bild > img {
+    width: 317px;
+}
+
+nav {
+    background: #1A1B21;
+    width: 317px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.name > h1{
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.name > h3{
+    color: #F3BF99;
+    font-size: 14px;
+}
+
+.name > h4 > a{
+    color: #F5F5F5;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+.Button1{
+    background-color: #FFFFFF;
+    width: 115px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.Button2{
+    background-color: #5093E2;
+    width: 115px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.Git{
+    width: 32px;
+    height: 32px;
+}
+
+.Linked{
+    width: 32px;
+    height: 32px;
+}
+
+.Twit{
+    width: 32px;
+    height: 32px;
+}
+
+.main{
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    padding-top: 15px;
+    background: #1A1B21;
+}
+
+.Interests{
+    margin-left: 20px;
+}
+
+.Interests > h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Interests > p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    max-width: 250px;
+}
+.footer{
+    background-color: #161619;
+    width: 317px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
