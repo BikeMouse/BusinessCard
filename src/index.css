@@ -1,23 +1,23 @@
 body{
     max-height: 768px;
-    max-width: 317px;
+    max-width: 330px;
     font-family: 'Inter',sans-serif;
+    background-color: #23252C;
 }
 
 .bild{
-    display: flex;
-    justify-content: flex-start;
-    width: 317px;
-    height: 317px;
+    width: 330px;
+    height: 330px;
 }
 
 .bild > img {
-    width: 317px;
+    width: 330px;
+    border-radius: 9px;
 }
 
 nav {
     background: #1A1B21;
-    width: 317px;
+    width: 330px;
 }
 
 .name{
@@ -25,6 +25,7 @@ nav {
     flex-direction: column;
     align-items: center;
     margin-right: 10px;
+    margin-top: 30px;
 }
 
 .name > h1{
@@ -94,7 +95,7 @@ a {
     color: #F5F5F5;
     display: flex;
     flex-direction: column;
-    width: 317px;
+    width: 330px;
     padding-top: 15px;
     background: #1A1B21;
 }
@@ -109,17 +110,22 @@ a {
 }
 
 .Interests > p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
     max-width: 250px;
 }
 .footer{
     background-color: #161619;
-    width: 317px;
+    width: 330px;
     height: 67px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+html{
+    height: 863px;
+    width: 550px;
 }
